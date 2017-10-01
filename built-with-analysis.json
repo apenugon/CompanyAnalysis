@@ -1,0 +1,653 @@
+{
+    "Results": [
+        {
+            "Result": {
+                "IsDB": true,
+                "Spend": 348,
+                "Paths": [
+                    {
+                        "FirstIndexed": 1414281600000,
+                        "LastIndexed": 1506639600000,
+                        "Domain": "ampermusic.com",
+                        "Url": "",
+                        "SubDomain": "",
+                        "Technologies": [
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "Apache",
+                                "Description": "Apache has been the most popular web server on the Internet since April 1996.",
+                                "Link": "http://httpd.apache.org/",
+                                "Tag": "Web Server",
+                                "FirstDetected": 1414281600000,
+                                "LastDetected": 1434927600000
+                            },
+                            {
+                                "Categories": [
+                                    "Web Hosting Provider Email"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "1and1 Email Solutions",
+                                "Description": "Professional email hosting solutions for individuals and businesses from 1&1.",
+                                "Link": "http://order.1and1.com/xml/order/Mail",
+                                "Tag": "mx",
+                                "FirstDetected": 1415574000000,
+                                "LastDetected": 1418079600000
+                            },
+                            {
+                                "Categories": [
+                                    "UK hosting"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "1and1",
+                                "Description": "1&1 internet packaged hosting, mail and eCommerce solutions owned by United Internet and incorporating Schlund and Partners.",
+                                "Link": "http://1and1.com",
+                                "Tag": "hosting",
+                                "FirstDetected": 1415574000000,
+                                "LastDetected": 1432162800000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "1and1 DNS",
+                                "Description": "DNS services provided by 1&1.",
+                                "Link": "http://1and1.com",
+                                "Tag": "ns",
+                                "FirstDetected": 1415574000000,
+                                "LastDetected": 1432162800000
+                            },
+                            {
+                                "Categories": [
+                                    "Business Email Hosting"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Google Apps for Business",
+                                "Description": "Web-based email, calendar, and documents for teams. Renamed to Google Apps for Work, but now known as G Suite From Google Cloud.",
+                                "Link": "http://www.google.com/a",
+                                "Tag": "mx",
+                                "FirstDetected": 1422658800000,
+                                "LastDetected": 1506380400000
+                            },
+                            {
+                                "Categories": [
+                                    "Cloud Hosting",
+                                    "Cloud PaaS"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Amazon",
+                                "Description": "This site is hosted on Amazon infrastructure.",
+                                "Link": "http://aws.amazon.com",
+                                "Tag": "hosting",
+                                "FirstDetected": 1434927600000,
+                                "LastDetected": 1506380400000
+                            },
+                            {
+                                "Categories": [
+                                    "Enterprise DNS"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Amazon Route 53",
+                                "Description": "Amazon's scalable DNS web service system.",
+                                "Link": "http://aws.amazon.com/route53/",
+                                "Tag": "ns",
+                                "FirstDetected": 1434927600000,
+                                "LastDetected": 1506380400000
+                            },
+                            {
+                                "Categories": [
+                                    "US hosting"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Amazon Oregon Region",
+                                "Description": "Amazon Hosted EC2 Instances in Oregon",
+                                "Link": "http://aws.amazon.com",
+                                "Tag": "hosting",
+                                "FirstDetected": 1434927600000,
+                                "LastDetected": 1504393200000
+                            },
+                            {
+                                "Categories": [
+                                    "Application Performance"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "New Relic",
+                                "Description": "New Relic is a dashboard used to keep an eye on application health and availability while monitoring real user experience.",
+                                "Link": "http://newrelic.com/",
+                                "Tag": "analytics",
+                                "FirstDetected": 1437519600000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": [
+                                    "Application Performance"
+                                ],
+                                "IsPremium": "maybe",
+                                "Name": "Keen IO",
+                                "Description": "Analytics backend-as-a-service lets developers build analytics features directly into apps.",
+                                "Link": "http://keen.io/",
+                                "Tag": "analytics",
+                                "FirstDetected": 1437519600000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": [
+                                    "JavaScript Library"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "jQuery",
+                                "Description": "JQuery is a fast, concise, JavaScript Library that simplifies how you traverse HTML documents, handle events, perform animations, and add Ajax interactions to your web pages. jQuery is designed to change the way that you write JavaScript.",
+                                "Link": "http://jquery.com",
+                                "Tag": "javascript",
+                                "FirstDetected": 1437519600000,
+                                "LastDetected": 1501282800000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "Content Delivery Network",
+                                "Description": "This page contains links that give the impression that some of the site contents are stored on a content delivery network.",
+                                "Link": "http://en.wikipedia.org/wiki/Content_Delivery_Network",
+                                "Tag": "CDN",
+                                "FirstDetected": 1438128000000,
+                                "LastDetected": 1456444800000
+                            },
+                            {
+                                "Categories": [
+                                    "Lightbox"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Fancybox",
+                                "Description": "FancyBox is a tool for displaying images, html content and multi-media in a Mac-style \"lightbox\" that floats overtop of web page. ",
+                                "Link": "http://fancybox.net/",
+                                "Tag": "javascript",
+                                "FirstDetected": 1437519600000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "Rack Cache",
+                                "Description": "Rack::Cache is a component to enable HTTP caching for Rack-based applications such as Rails.",
+                                "Link": "http://rtomayko.github.com/rack-cache/",
+                                "Tag": "Web Server",
+                                "FirstDetected": 1437519600000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "Device Pixel Ratio",
+                                "Description": "A media query to display different CSS based on the device pixel ratio. Standard screens have a pixel ratio of 1, retina devices have a pixel ratio greater than 1.",
+                                "Link": "http://www.hongkiat.com/blog/css-retina-display/",
+                                "Tag": "css",
+                                "FirstDetected": 1438128000000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "Min Width",
+                                "Description": "A CSS media query to display specific CSS if a device greater than the minimum width specified.",
+                                "Link": "http://www.w3.org/TR/css3-mediaqueries/",
+                                "Tag": "css",
+                                "FirstDetected": 1438128000000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "Apple Mobile Web Clips Icon",
+                                "Description": "This page contains an icon for iPhone, iPad and iTouch devices.",
+                                "Link": "http://developer.apple.com/library/iOS/#documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html",
+                                "Tag": "mobile",
+                                "FirstDetected": 1437519600000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": [
+                                    "Fonts"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Google Font API",
+                                "Description": "The Google Font API helps you add web fonts to any web page.",
+                                "Link": "https://fonts.google.com",
+                                "Tag": "widgets",
+                                "FirstDetected": 1437519600000,
+                                "LastDetected": 1506639600000
+                            },
+                            {
+                                "Categories": [
+                                    "Simple Website Builder",
+                                    "Hosted Solution"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Strikingly",
+                                "Description": "This is website builder and hosting technology.",
+                                "Link": "http://strikingly.com",
+                                "Tag": "cms",
+                                "FirstDetected": 1437519600000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": [
+                                    "JavaScript Library"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "KnockoutJS",
+                                "Description": "Simplified dynamic javascript user interface pattern library.",
+                                "Link": "http://knockoutjs.com/",
+                                "Tag": "javascript",
+                                "FirstDetected": 1438128000000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": [
+                                    "JavaScript Library"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Moment JS",
+                                "Description": "moment.js is a date library for parsing, validating, manipulating, and formatting dates.",
+                                "Link": "http://momentjs.com",
+                                "Tag": "javascript",
+                                "FirstDetected": 1438128000000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "CloudFront",
+                                "Description": "Amazon CloudFront is a web service for content delivery. It integrates with other Amazon Web Services to give developers and businesses an easy way to distribute content to end users with low latency, high data transfer speeds, and no commitments. ",
+                                "Link": "http://aws.amazon.com/cloudfront/",
+                                "Tag": "cdn",
+                                "FirstDetected": 1437519600000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "maybe",
+                                "Name": "Cloudinary",
+                                "Description": "Image management & delivery solution.",
+                                "Link": "http://cloudinary.com",
+                                "Tag": "cdn",
+                                "FirstDetected": 1437519600000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": [
+                                    "Application Performance",
+                                    "Audience Measurement",
+                                    "Visitor Count Tracking"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Google Analytics",
+                                "Description": "Google Analytics offers a host of compelling features and benefits for everyone from senior executives and advertising and marketing professionals to site owners and content developers. ",
+                                "Link": "http://google.com/analytics",
+                                "Tag": "analytics",
+                                "FirstDetected": 1437519600000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": [
+                                    "Social SDK"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Facebook for Websites",
+                                "Description": "Allows a user to make a website more sociable and connected with integrations from the hugely popular Facebook website.",
+                                "Link": "http://developers.facebook.com/",
+                                "Tag": "javascript",
+                                "FirstDetected": 1437519600000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": [
+                                    "Programming Language"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Ruby on Rails",
+                                "Description": "Ruby on Rails is an open-source web framework that is optimized for programmer happiness and sustainable productivity.",
+                                "Link": "http://www.rubyonrails.org/",
+                                "Tag": "framework",
+                                "FirstDetected": 1438128000000,
+                                "LastDetected": 1440370800000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "Google Universal Analytics",
+                                "Description": "The analytics.js JavaScript snippet is a new way to measure how users interact with your website. It is similar to the previous Google tracking code, ga.js, but offers more flexibility for developers to customize their implementations.",
+                                "Link": "https://developers.google.com/analytics/devguides/collection/analyticsjs/",
+                                "Tag": "analytics",
+                                "FirstDetected": 1438128000000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "Tengine",
+                                "Description": "Tengine is a web server developed by the Servers Platform Team at Taobao. Based on nginx.",
+                                "Link": "http://tengine.taobao.org/",
+                                "Tag": "Web Server",
+                                "FirstDetected": 1437519600000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "Viewport Meta",
+                                "Description": "This page uses the viewport meta tag which means the content may be optimized for mobile content.",
+                                "Link": "https://developers.google.com/speed/docs/insights/ConfigureViewport",
+                                "Tag": "mobile",
+                                "FirstDetected": 1437519600000,
+                                "LastDetected": 1506639600000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "Max Width",
+                                "Description": "Media query to limit CSS to display for devices with a maximum width defined.",
+                                "Link": "http://www.w3.org/TR/css3-mediaqueries/",
+                                "Tag": "css",
+                                "FirstDetected": 1438128000000,
+                                "LastDetected": 1442444400000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "nginx",
+                                "Description": "nginx [engine x] is a HTTP server and mail proxy server written by Igor Sysoev.",
+                                "Link": "http://nginx.net/",
+                                "Tag": "Web Server",
+                                "FirstDetected": 1442876400000,
+                                "LastDetected": 1506639600000
+                            },
+                            {
+                                "Categories": [
+                                    "Programming Language"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "PHP",
+                                "Description": "PHP is a widely-used general-purpose scripting language that is especially suited for Web development and can be embedded into HTML.",
+                                "Link": "http://www.php.net",
+                                "Tag": "framework",
+                                "FirstDetected": 1442876400000,
+                                "LastDetected": 1442876400000
+                            },
+                            {
+                                "Categories": [
+                                    "Root Authority"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Comodo SSL",
+                                "Description": "Certificate provided by Comodo.",
+                                "Link": "http://comodo.com",
+                                "Tag": "ssl",
+                                "FirstDetected": 1442876400000,
+                                "LastDetected": 1506380400000
+                            },
+                            {
+                                "Categories": [
+                                    "Wildcard"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Comodo PremiumSSL Wildcard",
+                                "Description": "PositiveSSL Comodo premium SSL wildcard certificate.",
+                                "Link": "http://www.positivessl.com/ssl-certificate-premiumssl_wildcard.php",
+                                "Tag": "ssl",
+                                "FirstDetected": 1442876400000,
+                                "LastDetected": 1506380400000
+                            },
+                            {
+                                "Categories": [
+                                    "Transactional Email"
+                                ],
+                                "IsPremium": "yes",
+                                "Name": "Amazon SES",
+                                "Description": "Amazon Simple Email Service (Amazon SES) is a  scalable, bulk, transactional email-sending service for businesses and developers.",
+                                "Link": "http://aws.amazon.com/ses/",
+                                "Tag": "mx",
+                                "FirstDetected": 1454972400000,
+                                "LastDetected": 1506380400000
+                            },
+                            {
+                                "Categories": [
+                                    "Standard"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "SPF",
+                                "Description": "The Sender Policy Framework is an open standard specifying a technical method to prevent sender address forgery.",
+                                "Link": "http://www.openspf.org/",
+                                "Tag": "mx",
+                                "FirstDetected": 1454972400000,
+                                "LastDetected": 1506380400000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "Dedicated Hosting",
+                                "Description": "This website is on an IP address not shared with other domains - it is more likely this website is not using shared hosting for this reason.",
+                                "Link": "https://en.wikipedia.org/wiki/Dedicated_hosting_service",
+                                "Tag": "hosting",
+                                "FirstDetected": 1458601200000,
+                                "LastDetected": 1502233200000
+                            },
+                            {
+                                "Categories": [
+                                    "Campaign Management"
+                                ],
+                                "IsPremium": "maybe",
+                                "Name": "MailChimp SPF",
+                                "Description": "This site has an SPF record for MailChimp managed email sending.",
+                                "Link": "http://mailchimp.com",
+                                "Tag": "mx",
+                                "FirstDetected": 1467241200000,
+                                "LastDetected": 1506380400000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "Mobile Non Scaleable Content",
+                                "Description": "This content is formatted for mobile devices, it does not allow the content to be scaled.",
+                                "Link": "http://developer.apple.com/library/safari/#documentation/appleapplications/reference/SafariHTMLRef/Articles/MetaTags.html",
+                                "Tag": "mobile",
+                                "FirstDetected": 1467327600000,
+                                "LastDetected": 1489186800000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "Typekit",
+                                "Description": "Typekit is the easiest way to use real fonts on the web. It's a subscription-based service for linking to high-quality Open Type fonts from some of the worlds best type foundries. ",
+                                "Link": "http://typekit.com",
+                                "Tag": "widgets",
+                                "FirstDetected": 1467327600000,
+                                "LastDetected": 1476658800000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "Facebook Pixel",
+                                "Description": "Facebook Pixel is Facebooks conversion tracking system for ads on Facebook to websites.",
+                                "Link": "https://www.facebook.com/business/help/952192354843755",
+                                "Tag": "analytics",
+                                "FirstDetected": 1468969200000,
+                                "LastDetected": 1506639600000
+                            },
+                            {
+                                "Categories": [
+                                    "Edge Delivery Network"
+                                ],
+                                "IsPremium": "yes",
+                                "Name": "Amazon CloudFront",
+                                "Description": "Amazon CloudFront delivers your static and streaming content using a global network of edge locations.",
+                                "Link": "http://aws.amazon.com/cloudfront/",
+                                "Tag": "cdns",
+                                "FirstDetected": 1469746800000,
+                                "LastDetected": 1469746800000
+                            },
+                            {
+                                "Categories": [
+                                    "Transactional Email"
+                                ],
+                                "IsPremium": "yes",
+                                "Name": "Postmark",
+                                "Description": "Email delivery for web apps.",
+                                "Link": "http://postmarkapp.com",
+                                "Tag": "mx",
+                                "FirstDetected": 1472425200000,
+                                "LastDetected": 1506380400000
+                            },
+                            {
+                                "Categories": [
+                                    "A/B Testing",
+                                    "Audience Measurement",
+                                    "Mobile",
+                                    "Site Optimization"
+                                ],
+                                "IsPremium": "yes",
+                                "Name": "Mixpanel",
+                                "Description": "This is an analytic platform that is particularly optimized funnel/work-flow optimization.",
+                                "Link": "http://mixpanel.com",
+                                "Tag": "analytics",
+                                "FirstDetected": 1485990000000,
+                                "LastDetected": 1485990000000
+                            },
+                            {
+                                "Categories": [
+                                    "Retargeting / Remarketing"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Facebook Custom Audiences",
+                                "Description": "Custom Audiences from your website makes it possible to reach people who visit your website and deliver the right message to them on Facebook.",
+                                "Link": "https://developers.facebook.com/docs/reference/ads-api/custom-audience-website",
+                                "Tag": "ads",
+                                "FirstDetected": 1485990000000,
+                                "LastDetected": 1485990000000
+                            },
+                            {
+                                "Categories": [
+                                    "Live Stream / Webcast",
+                                    "Online Video Platform",
+                                    "Social Video Platform"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "YouTube",
+                                "Description": "Embedded videos from YouTube.",
+                                "Link": "http://youtube.com",
+                                "Tag": "media",
+                                "FirstDetected": 1488582000000,
+                                "LastDetected": 1506639600000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "DoubleClick.Net",
+                                "Description": "DoubleClick enables agencies, marketers and publishers to work together successfully and profit from their digital marketing investments.",
+                                "Link": "http://www.doubleclick.com",
+                                "Tag": "ads",
+                                "FirstDetected": 1488841200000,
+                                "LastDetected": 1506380400000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "SSL by Default",
+                                "Description": "The website redirects traffic to an HTTPS/SSL version by default.",
+                                "Link": "http://trends.builtwith.com/ssl",
+                                "Tag": "ssl",
+                                "FirstDetected": 1488841200000,
+                                "LastDetected": 1506380400000
+                            },
+                            {
+                                "Categories": [
+                                    "Social Management"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "Facebook Domain Insights",
+                                "Description": "This website contains tracking information that allows admins to see Facebook Insights out of Facebook to this domain.",
+                                "Link": "http://www.facebook.com/insights/",
+                                "Tag": "analytics",
+                                "FirstDetected": 1493334000000,
+                                "LastDetected": 1506639600000
+                            },
+                            {
+                                "Categories": null,
+                                "IsPremium": "no",
+                                "Name": "GStatic Google Static Content",
+                                "Description": "Google has off-loaded static content (Javascript/Images/CSS) to a different domain name in an effort to reduce bandwidth usage and increase network performance for the end user.",
+                                "Link": "http://superuser.com/questions/64716/what-is-gstatic-com",
+                                "Tag": "cdn",
+                                "FirstDetected": 1494630000000,
+                                "LastDetected": 1501282800000
+                            },
+                            {
+                                "Categories": [
+                                    "Checkout Buttons",
+                                    "Payments Processor"
+                                ],
+                                "IsPremium": "yes",
+                                "Name": "Stripe",
+                                "Description": "Stripe makes it easy for developers to accept credit cards on the web.",
+                                "Link": "https://stripe.com/",
+                                "Tag": "payment",
+                                "FirstDetected": 1503356400000,
+                                "LastDetected": 1506639600000
+                            },
+                            {
+                                "Categories": [
+                                    "Compatibility"
+                                ],
+                                "IsPremium": "no",
+                                "Name": "jResponse",
+                                "Description": "jRespond is a simple way to globally manage javascript on responsive websites.",
+                                "Link": "https://github.com/ten1seven/jRespond",
+                                "Tag": "javascript",
+                                "FirstDetected": 1504306800000,
+                                "LastDetected": 1504393200000
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Meta": {
+                "Vertical": "Art And Entertainment",
+                "Social": [
+                    "http://twitter.com/ampermusic",
+                    "http://facebook.com/ampermusic",
+                    "http://linkedin.com/company/amper-music-inc-"
+                ],
+                "CompanyName": null,
+                "Telephones": [],
+                "Emails": [
+                    "hello@ampermusic.com"
+                ],
+                "City": null,
+                "State": null,
+                "Postcode": null,
+                "Country": "",
+                "Names": null,
+                "ARank": 156956,
+                "QRank": -1
+            },
+            "Attributes": {
+                "MJRank": 752627,
+                "MJTLDRank": 376292,
+                "RefSN": 412,
+                "RefIP": 431,
+                "TTFB": 0,
+                "Sitemap": 5,
+                "GTMTags": 0,
+                "QubitTags": 0,
+                "TealiumTags": 0,
+                "AdobeTags": 0,
+                "CDimensions": 0,
+                "CGoals": 0,
+                "CMetrics": 0,
+                "SourceBytes": 0
+            },
+            "FirstIndexed": 1414281600000,
+            "LastIndexed": 1506639600000,
+            "Lookup": "ampermusic.com"
+        }
+    ],
+    "Errors": []
+}

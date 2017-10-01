@@ -1,0 +1,14 @@
+{
+  "name": "amper-music-analysis",
+  "version": "0.0.1",
+  "description": "A program to find out internal information about a small startup.",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akul Penugonda",
+  "license": "ISC"
+}
