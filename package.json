@@ -4,6 +4,11 @@
   "description": "A program to find out internal information about a small startup.",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.16.1",
+    "node-set": "0.0.1",
+    "regression": "^2.0.0",
+    "socket.io": "^2.0.3"
   },
   "devDependencies": {},
   "scripts": {

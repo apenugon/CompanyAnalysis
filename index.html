@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>One Page Wonder - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Akul Penugonda</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="overlay">
+        <div class="container">
+          <h1 class="display-1 text-white">Amper Music</h1>
+          <h2 class="display-4 text-white">Company Analysis</h2>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="https://unsplash.it/500/500?image=836" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 order-1">
+            <div class="p-5">
+              <h2 class="display-4">Who?</h2>
+              <p>I decided to make this project about a company I found out about recently: <a href="http://www.ampermusic.com">Amper Music</a>. They just raised a $4M Seed round in March, and I met a founder earlier this year. But what interests me about them is they have created a platform to create AI-generated music! As an avid musician myself (and one-time aspiring <a href="https://www.youtube.com/watch?v=OhMdHOcGalI">producer</a> myself) I was hooked.</p>
+              <p>See the <a href="https://github.com/ragnarok451/CompanyAnalysis">Github</a> for more information! Also, this page is loaded live every time, so you may need to wait for the graphs to load.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="p-5" id="container_rev_costs">
+            Loading...
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-5">
+              <h2 class="display-4">What?</h2>
+              <p>I was curious if I could use information online to determine something about the finances of this company. There were two sources of information that were great: WebArchive, which I used to look at the growth of their customer showcase over time to forecast revenue, and Amazon Alexa data, which I used to estimate platform usage (and therefore costs). The graph on the left depicts Amper's estimated costs and revenue to date, month over month. </p>
+              <p>To estimate revenue, I estimated average deal size as about $8000, from <a href="https://www.saastr.com/a-little-less-about-pricing-a-little-more-about-deal-size-please/">here</a>. I also estimated that every customer in the showcase counted as a deal.</p>
+              <p>The model I created relies on data from <a href="http://builtwith.com">BuiltWith</a> for info about their tech stack. I estimated page visits from Alexa ranking using <a href="http://netberry.co.uk/alexa-rank-explained.htm">this information</a>. I assumed that 25% of those visits could translate to an hour of platform usage, costing $0.01 on Amazon. I also used their address on their WHOIS to get real estate cost. I modelled employee cost assuming that they scaled linearly with revenue, and that the cost for each was $130k on average.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2">
+            <div class="p-5" id="container_coh">
+            Loading...
+            </div>
+          </div>
+          <div class="col-md-6 order-1">
+            <div class="p-5">
+              <h2 class="display-4">When?</h2>
+              <p>With this information, I estimated the company's available cash on hand. The graph on the right depicts the company's cash on hand over time. As we can see, cash on hand dips negative in <span id="coh"></span> months, so Amper would need to raise another round by then.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="socketio/socket.io.js"></script>
+    <script src="js/load_charts.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+
+  </body>
+
+</html>
