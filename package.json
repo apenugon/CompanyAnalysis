@@ -4,7 +4,9 @@
   "description": "A program to find out internal information about a small startup.",
   "main": "index.js",
   "dependencies": {
+    "awis": "^1.0.9",
     "axios": "^0.16.2",
+    "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.1",
     "node-set": "0.0.1",
     "regression": "^2.0.0",
