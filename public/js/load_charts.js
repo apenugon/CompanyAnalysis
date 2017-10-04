@@ -72,16 +72,16 @@ $(function () {
                     label: {
                         connectorAllowed: false
                     },
-                    pointStart: 0
+                    pointStart: 3
                 }
             },
 
             series: [{
                 name: 'Revenue',
-                data: data.revenue_over_time.slice(0,data.current_month-3)
+                data: data.revenue_over_time.slice(0,data.current_month-2)
             }, {
                 name: 'Costs',
-                data: data.costs_over_time.slice(0,data.current_month-3)
+                data: data.costs_over_time.slice(0,data.current_month-2)
             }],
 
             responsive: {
