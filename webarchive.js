@@ -27,11 +27,13 @@ function getSnapshotResultsByMonth(month, final_month, callback) {
   if (monthForRequest < 10) {
     monthString = '0' + monthString;
   }
-axios.get('http://archive.org/wayback/available?url=ampermusic.com&timestamp='+yearString+monthString + "01")
+  axios.get('http://archive.org/wayback/available?url=ampermusic.com&timestamp='+yearString+monthString + "01")
   .then(response => {
     if (response.data.archived_snapshots.closest == undefined) {
+      // Keep trying!
       getSnapshotResultsByMonth(month, final_month, callback)
     } else {
+      // Scrape results
       axios.get(response.data.archived_snapshots.closest.url)
         .then(response => {
           var $ = cheerio.load(response.data);
