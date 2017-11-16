@@ -5,11 +5,11 @@
 
 module.exports = {
   // Calls callback with a tuple containing (month, number of clients)
-  get_monthly_revenue: function(current_month, callback) {
+  get_monthly_revenue: function(shift, current_month, callback) {
     module.monthly_revenue = [];
     module.overall_customers = new Set();
     module.overall_customers.add("Grange Productions"); // Initial Customer, found manually
-    getSnapshotResultsByMonth(3, current_month, callback);
+    getSnapshotResultsByMonth(shift, current_month, callback);
   },
 }
 
@@ -19,12 +19,15 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 
 function getSnapshotResultsByMonth(month, final_month, callback) { 
-  monthString = month.toString();
-  if (month < 10) {
+  years = Math.floor(month/12)
+  yearString = (2017+years).toString()
+
+  monthForRequest = month % 12 == 0 ? 12 : month % 12
+  monthString = monthForRequest.toString();
+  if (monthForRequest < 10) {
     monthString = '0' + monthString;
   }
-  console.log("Month: " + month);
-axios.get('http://archive.org/wayback/available?url=ampermusic.com&timestamp=2017'+monthString + "01")
+axios.get('http://archive.org/wayback/available?url=ampermusic.com&timestamp='+yearString+monthString + "01")
   .then(response => {
     if (response.data.archived_snapshots.closest == undefined) {
       getSnapshotResultsByMonth(month, final_month, callback)
@@ -41,7 +44,7 @@ axios.get('http://archive.org/wayback/available?url=ampermusic.com&timestamp=201
           customers.map(n => module.overall_customers.add(n));
 
           // Here we will convert # clients to revenue - estimate of deal size is ~$8000
-          module.monthly_revenue.push({month: month, revenue: module.overall_customers.size * DEAL_SIZE_ESTIMATE});
+          module.monthly_revenue.push(module.overall_customers.size * DEAL_SIZE_ESTIMATE);
 
           // Call next iteration
           if (month < final_month) {
